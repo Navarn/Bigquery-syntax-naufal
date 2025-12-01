@@ -46,5 +46,3 @@ LEFT JOIN `bigquery-sandbox-479609.kf_analytics_project.kf_kantor_cabang` c
   ON t.branch_id = c.branch_id
 LEFT JOIN `bigquery-sandbox-479609.kf_analytics_project.kf_product` p
   ON t.product_id = p.product_id;
-
-add sql file
